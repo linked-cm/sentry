@@ -1,0 +1,52 @@
+{
+  "name": "@_linked/sentry",
+  "description": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "version": "1.0.1",
+  "type": "commonjs",
+  "lincd": true,
+  "license": "ISC",
+  "scripts": {
+    "start": "npm exec lincd dev",
+    "build": "yarn lincd build",
+    "prepublishOnly": "yarn lincd build production",
+    "postpublish": "npm exec lincd register"
+  },
+  "keywords": [
+    "lincd",
+    "linked data",
+    "interoperable",
+    "semantic web",
+    "web3"
+  ],
+  "dependencies": {
+    "@_linked/core": "^2.0.1",
+    "@_linked/server-utils": "~1.0",
+    "@sentry/capacitor": "^1.4.0",
+    "@sentry/integrations": "^7.114.0",
+    "@sentry/node": "^9.32.0",
+    "@sentry/profiling-node": "^9.32.0",
+    "@sentry/react": "^9.32.0"
+  },
+  "devDependencies": {
+    "lincd-cli": "^1.2",
+    "tsconfig-to-dual-package": "^1.2.0",
+    "typescript": "^5.7.3",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "lib/esm/*"
+      ]
+    }
+  }
+}
