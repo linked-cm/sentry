@@ -68,5 +68,8 @@
         "lib/esm/*"
       ]
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
