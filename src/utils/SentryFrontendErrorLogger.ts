@@ -1,7 +1,9 @@
 import { IErrorLogger } from '@_linked/core/utils/LinkedErrorLogging';
 import * as Sentry from '@sentry/capacitor';
 import * as SentryReact from '@sentry/react';
-import { captureConsoleIntegration } from '@sentry/integrations';
+// captureConsoleIntegration is built into @sentry/react v8+ (was previously
+// in the separate @sentry/integrations package, which no longer publishes v8).
+const {captureConsoleIntegration} = SentryReact;
 
 export class SentryFrontendErrorLogger implements IErrorLogger {
   constructor() {
