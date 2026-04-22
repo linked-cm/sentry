@@ -32,11 +32,11 @@
   "dependencies": {
     "@_linked/core": "^2.0.1",
     "@_linked/server-utils": "~1.0",
-    "@sentry/capacitor": "^1.4.0",
-    "@sentry/integrations": "^7.114.0",
-    "@sentry/node": "^9.32.0",
-    "@sentry/profiling-node": "^9.32.0",
-    "@sentry/react": "^9.32.0"
+    "@sentry/capacitor": "1.4.0",
+    "@sentry/integrations": "8.55.0",
+    "@sentry/node": "8.55.0",
+    "@sentry/profiling-node": "8.55.0",
+    "@sentry/react": "8.55.0"
   },
   "devDependencies": {
     "@_linked/cli": "^1.2",
