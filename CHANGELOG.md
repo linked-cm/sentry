@@ -1,5 +1,11 @@
 # @\_linked/sentry
 
+## 1.0.3
+
+### Patch Changes
+
+- [#3](https://github.com/linked-cm/sentry/pull/3) [`77123bb`](https://github.com/linked-cm/sentry/commit/77123bbfed00a40a5225e4f73d0470caf888fa67) Thanks [@flyon](https://github.com/flyon)! - loadData: ESM-only JSON import — drop the dead CJS branch, add the `{ with: { type: 'json' } }` import attribute.
+
 ## 1.0.2
 
 ### Patch Changes
