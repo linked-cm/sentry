@@ -9,9 +9,6 @@ const base = 'http://lincd.org/ont/sentry/';
 Prefix.add('sentry', base);
 
 export const loadData = () => {
-  if (typeof module !== 'undefined' && typeof exports !== 'undefined') {
-    return import(dataFile);
-  }
   //@ts-ignore
   return import(dataFile, { with: { type: 'json' } }).then(
     (data) => data.default
