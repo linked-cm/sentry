@@ -10,7 +10,7 @@
     "type": "git",
     "url": ""
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "linkedPackage": true,
   "main": "lib/cjs/index.js",
@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "@_linked/core": "^2.0.1",
-    "@_linked/server-utils": "~1.0",
+    "@_linked/server-utils": "^1.0",
     "@sentry/capacitor": "1.4.0",
     "@sentry/node": "8.55.0",
     "@sentry/profiling-node": "8.55.0",
