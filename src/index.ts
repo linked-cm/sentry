@@ -6,4 +6,3 @@ import './ontologies/sentry.js';
 //THEN COMPONENTS
 import './utils/SentryBackendErrorLogger.js';
 import './utils/SentryFrontendErrorLogger.js';
-import './utils/instrument.js';
